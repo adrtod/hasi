@@ -2,23 +2,24 @@ Hierachical Adaptive Soft Impute
 ======================================
 
 HASI is an algorithm for low-rank matrix completion descibed in reference [1].
+
 It uses nonconvex nuclear penalties arising from a hierarchical sparsity 
 inducing prior on singular values.
 The algorithm iteratively performs adaptive weighted soft thresholded SVD.
 
 Applications are in Collaborative Filtering (predicting user preferences for 
-items), image inpainting, imputation of missing values.
+items), image inpainting, imputation of missing values, etc.
 
 The software is distributed as a Matlab package. It makes use of the PROPACK 
 algorithm for handling large scale matrices.
 
 Getting started
 ---------------
-1. Please see `demo_hasi.m` to see how to use HASI on an example.
 
-2. To run the programs, folders `Matlab_files` and `PROPACK_utils` need to be in path.
-
-3. Install mex files by running `install_mex` (details in `install_mex.m`).
+1. [Download](https://github.com/adrtod/hasi/archive/master.zip) and extract HASI.
+2. Add folders `Matlab_files` and `PROPACK_utils` to Matlab path.
+3. Run `install_mex.m` to install mexfiles.
+4. See and run `demo_hasi.m`.
 
 Functions
 ---------
