@@ -26,7 +26,7 @@ Any function help is available via the command `help funcname`.
 
 Authors
 -------
-HASI software was written by [Adrien Todeschini](adrtod.github.io) <adrien.todeschini@inria.fr>
+HASI software was written by [Adrien Todeschini](http://adrtod.github.io) (<adrien.todeschini@inria.fr>).
 
 HASI software is adapted from the [`Soft-Impute`](http://www.mit.edu/~rahulmaz/software.html) Matlab code written by [Rahul Mazumder](http://www.mit.edu/~rahulmaz/) with considerable input from 
 [Trevor Hastie](https://web.stanford.edu/~hastie/)  based on the paper [2].
@@ -41,5 +41,5 @@ by Adrien Todeschini, Francois Caron, Marie Chavent (NIPS' 2013)
 
 Revisions
 ----------
-v1.0 : (2013-12-05) Original release
+- v1.0 : (2013-12-05) Original release
 
