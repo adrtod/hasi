@@ -56,6 +56,7 @@ Revisions
 ----------
 ### v1.1 (2016-07-29)
 - fix binary case
+
 ### v1.0 (2013-12-05)
 Original release
 
