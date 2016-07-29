@@ -499,9 +499,9 @@ while (tol_curr>TOLERANCE) && (i<MAXITER)
         if BINARY %%%% BINARY case
             Xcomp = Z;
             temp = Xcomp(mask_pos);
-            Xcomp(mask_pos) = temp + normpdf(temp,0,sigma)./(1+normcdf(-temp,0,sigma));
+            Xcomp(mask_pos) = temp + sigma*normpdf(temp,0,sigma)./normcdf(temp,0,sigma);
             temp = Xcomp(mask_neg);
-            Xcomp(mask_neg) = temp - normpdf(temp,0,sigma)./normcdf(-temp,0,sigma);
+            Xcomp(mask_neg) = temp - sigma*normpdf(temp,0,sigma)./normcdf(-temp,0,sigma);
         else
             Xcomp = Xobs+Z-Zobs;
         end
