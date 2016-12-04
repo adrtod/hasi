@@ -1,7 +1,7 @@
 Hierachical Adaptive Soft Impute
 ======================================
 
-HASI is an algorithm for low-rank matrix completion descibed in reference [1].
+HASI is an algorithm for low-rank matrix completion described in reference [1].
 
 It uses nonconvex nuclear penalties arising from a hierarchical sparsity 
 inducing prior on singular values.
@@ -36,8 +36,8 @@ Any function help is available via the command `help funcname`.
 
 Authors
 -------
-HASI software was written by [Adrien Todeschini](http://adrtod.github.io) 
-(<adrien.todeschini@inria.fr>).
+HASI software was written by [Adrien Todeschini](http://adrien.tspace.fr) 
+(<adrien.todeschini@gmail.com>).
 
 HASI software is adapted from the [`Soft-Impute`](http://www.mit.edu/~rahulmaz/software.html) 
 Matlab code written by [Rahul Mazumder](http://www.mit.edu/~rahulmaz/) with 
@@ -47,7 +47,7 @@ based on reference [2].
 References
 ----------
 [1]: "Probabilistic Low-Rank Matrix Completion with Adaptive Spectral Regularization Algorithms" 
-by Adrien Todeschini, Francois Caron, Marie Chavent (NIPS' 2013)
+by Adrien Todeschini, François Caron, Marie Chavent (NIPS' 2013)
 
 [2]: "Spectral Regularization Algorithms for Learning Large Incomplete Matrices"
  by Rahul Mazumder, Trevor Hastie, Rob Tibshirani (JMLR vol 11, 2010)
